@@ -13,10 +13,16 @@ public class subsetArr {
             }
         }
         }
+        return true;
         
     }
     public static void main(String[] args) {
         int arr[] ={2,3,1,5,7};
         int arr2[] ={4,1,6,8,5,9};
+        System.out.println(subsetOrNot(arr, arr2));
     }
 }
+/*
+ OUTPUT
+ false
+ */
