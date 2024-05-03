@@ -18,6 +18,10 @@ public class insert {
             list.remove(list.size()-1);
             return top;
         }
+        //peek
+        public static int peek(){
+            return top =list.get(list.size()-1);
+        }
     }
     public static void main(String[] args) {
         
