@@ -8,11 +8,20 @@ public class majorityElement {
         int b = n/2;
         Arrays.sort(arr);
         for(int i=0; i<n; i++){
-            if(arr[i]==arr[i+1])
+            if(arr[i]==arr[i+1]){
+                count++;
+            }
+            if(count>b){
+                return count;
+            }
         }
+        return -1;
     }
     public static void main(String[] args) {
         int arr[] ={3,1,3,3,2};
         int n = arr.length;
+        System.out.println(majority(arr, n));
     }
 }
+
+// OUTPUT 3
