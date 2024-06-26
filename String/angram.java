@@ -1,6 +1,7 @@
 package string;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class angram {
     public static boolean isAnagram(String str1, String str2) {
